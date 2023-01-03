@@ -3,7 +3,7 @@
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
 ![Scikit Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23666666.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ## 🔍  Description
 
 Data used in this project: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
@@ -24,13 +24,15 @@ It consists of four parts:
 
 ## 📝 Introduction and Analysis:
 
-**Introduction**
+**Introduction**  
+
 To handle collected data I used Jupyter Notebook with libraries:
-- pandas
-- string
-- seaborn
-- matplotlib
-- sklearn
+- Pandas
+- String
+- Seaborn
+- Matplotlib
+- SKLearn
+- NLTK
 
 Collected data is a TSV file. It can be read with Pandas and turned into a Data Frame.  
 There are no missing values in any of the columns.
@@ -83,10 +85,10 @@ This method reached **97.37%** accuracy.
 ## 📋 Conclusions 
 
 
-There is a lot of optimization possibilities to try with this project.
+There is a lot of optimization possibilities to try with this project. 
 
-Firstly, there are lots of other text pre-processing techniques that can be applied to the text before vectorizing it (such as ['stemming'](https://en.wikipedia.org/wiki/Stemming)).
+Firstly, there are lots of other text pre-processing techniques that can be applied to messages before vectorizing it (such as ['stemming'](https://en.wikipedia.org/wiki/Stemming)).  
 
-Secondly, a lot more different classifiers that can prove to be more efficient in this specific situation.
+Secondly, there is a lot different classifiers that can prove to be more efficient in this specific situation.  
 
 Also, deep understanding of the data can help to know what results should be achieved.
